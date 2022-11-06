@@ -1,0 +1,15 @@
+**/__pycache__
+**/CheckedOMRs
+**/ignore
+**/.DS_Store
+**/.vscode
+venv/
+.idea/
+OMRChecker.wiki/
+# Everything in inputs/ and outputs/
+inputs/*
+outputs/*
+# Except *.json and OMR_Files/
+# !inputs/OMR_Files/
+# !inputs/*.json
+# !inputs/omr_marker.jpg
