@@ -72,7 +72,7 @@ class ImageUtils:
             else:
                 MainOperations.show(name + "_" + str(key), result, pause, 0)
 
-    @staticmethod
+    @staticmethod 
     def resize_util(img, u_width, u_height=None):
         if u_height is None:
             h, w = img.shape[:2]
